@@ -1,0 +1,34 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+div {
+    display: inline-block;
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+}
+
+#static #middle {
+    position: static;
+    top: 100px;
+    left: 100px;
+}
+
+#relative #middle {
+    position: relative;
+    top: 0px;
+    left: 0px;
+}
+
+#absolute {
+    position: relative;
+}
+
+#absolute #middle {
+    position: absolute;
+    top: 50px;
+    left: 50px;
+}
